@@ -1,0 +1,44 @@
+
+
+a{
+    
+    border: 3px solid rgb(0, 132, 255);
+    padding: 0.6em 3.5em;
+    margin: auto;
+    text-decoration: none;
+    border-radius: 50px;
+    font-size: 0.9em;
+    color: rgb(0, 0, 0);
+    
+}
+
+h1{
+    font-size: 3rem;
+    font-weight: 600;
+}
+p{
+    margin-bottom: 15px;
+}
+.banner{
+    width: 100%;
+    
+    height: 500px;
+    display: flex;
+    background: yellow;
+    
+    align-items: center;
+    text-align: center;
+    background-image: url(https://static.nike.com/a/images/f_auto,cs_srgb/w_1920,c_limit/a775a4df-d252-4fcd-a951-ce20ebfee3ac/what-to-wear-for-cold-weather-running.jpg);
+    background-attachment:fixed ;
+    background-repeat: no-repeat;
+   background-size: cover;
+    
+  
+}
+.banner_descripcion{
+    color: rgb(111, 188, 233);
+    width: 90%;
+    max-width: 1000px;
+    display: block;
+    margin: auto;
+}
