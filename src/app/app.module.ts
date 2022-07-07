@@ -5,7 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ComponentesModule } from './componentes/componentes.module';
 import { PagesModule } from './pages/pages.module';
-
+import {CarouselModule} from 'primeng/carousel';
 
 
 @NgModule({
@@ -17,7 +17,8 @@ import { PagesModule } from './pages/pages.module';
     BrowserModule,
     AppRoutingModule,
     ComponentesModule,
-    PagesModule
+    PagesModule,
+    CarouselModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -10,7 +10,7 @@ import { FotherComponent } from './fother/fother.component';
 import { HeaderComponent } from './header/header.component';
 import { PagosComponent } from './pagos/pagos.component';
 import { VideoPresentComponent } from './video-present/video-present.component';
-
+import {CarouselModule} from 'primeng/carousel';
 
 
 @NgModule({
@@ -39,7 +39,8 @@ import { VideoPresentComponent } from './video-present/video-present.component';
     VideoPresentComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    CarouselModule
   ]
 })
 export class ComponentesModule { }

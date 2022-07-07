@@ -1,1 +1,36 @@
-<p>card-productos works!</p>
+
+
+
+
+<div class="card">
+    <div class="card-container blue-container overflow-hidden">
+        <div class="flex">
+            <div class="flex-auto flex align-items-center justify-content-center carta m-2 px-8 py-8 border-round" style="--i:url(https://t2.uc.ltmcdn.com/es/posts/9/9/3/como_saber_si_el_ejercicio_esta_funcionando_29399_600.jpg)">
+                <h2>Oferta</h2>
+                <div class="contenedor">
+                        
+                    <a href="" class="btn">Ver</a>
+                </div>
+            </div>
+            <div class="flex-initial flex align-items-center justify-content-center bg-blue-500 font-bold text-white m-2 px-5 py-3 border-round">
+                <p-carousel [value]="productos" styleClass="custom-carousel" [numVisible]="3" [numScroll]="1" [circular]="true" [autoplayInterval]="3000" [showIndicators]="false" >
+                    <ng-template let-hola pTemplate="item">
+                
+                        <div class="card">
+                            <img src="" class="imagen" alt="">
+                            <div class="cuerpo">
+                                <p class="nombre"></p>
+                                <p class="precio"></p>
+                                <p class="marca"></p>
+                
+                            </div>
+                        </div>
+                       <img src="{{hola.imagen}}" alt="productos" width="50%" height="50%">
+                    </ng-template>
+                
+                    
+                    
+                </p-carousel>
+                
+            </div>
+        </div>
