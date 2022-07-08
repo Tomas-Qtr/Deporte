@@ -10,7 +10,7 @@ export class CardProductosComponent implements OnInit {
   
   
   productos:object[]=[
-    {imagen:"https://assets.adidas.com/images/w_600,f_auto,q_auto/d1ca481027a9400d96f1abbc00f7b05b_9366/Chomba_Boca_Juniors_Blanco_GL7521_01_laydown.jpg",
+    {imagen:"https://img2.freepng.es/20180712/rqz/kisspng-puma-adidas-logo-clothing-brand-dog-silhouette-5b480835b98f49.6668944315314473497601.jpg",
      precio:1900.00,
      nombre:"chomba de boca",
      marca:"addidas",

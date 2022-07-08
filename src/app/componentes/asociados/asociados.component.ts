@@ -7,6 +7,34 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AsociadosComponent implements OnInit {
 
+  marcas:object[]=[{
+    imagen:"../../assets/Logo_Adidas.png"
+  },
+  {
+    imagen:"../../assets/Logo_Adidas.png"
+  },
+  {
+    imagen:"../../assets/Logo_Adidas.png"
+  },
+  {
+    imagen:"../../assets/Logo_Adidas.png"
+  },
+  {
+    imagen:"../../assets/Logo_Adidas.png"
+  },
+  {
+    imagen:"../../assets/Logo_Adidas.png"
+  },
+  {
+    imagen:"../../assets/Logo_Adidas.png"
+  },
+  {
+    imagen:"../../assets/Logo_Adidas.png"
+  },
+  
+    
+    
+  ]
   constructor() { }
 
   ngOnInit(): void {
