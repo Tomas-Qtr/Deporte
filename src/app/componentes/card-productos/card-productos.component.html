@@ -1,38 +1,26 @@
 
 
 
-
-<div class="card">
-    <div class="card-container blue-container overflow-hidden">
-        <div class="flex">
-            <div class="carta  m-2 border-round" style="--i:url(https://t2.uc.ltmcdn.com/es/posts/9/9/3/como_saber_si_el_ejercicio_esta_funcionando_29399_600.jpg)">
-            
-                <div class="contenedor">
-                    <h2 class="oferta">Oferta</h2>
-                    <a href="" class="btn">Ver</a>
+<div class="body">
+    <div class="contenedor">
+        <div class="left">
+            <div class="left-wrapper">
+                <div class="left-content">
+                    <h3 class="titulo">Importados</h3>
+                    <button class="btn">Ver</button>
                 </div>
             </div>
-            <div class="flex-initial flex  border-round">
-                <p-carousel [value]="productos" styleClass="custom-carousel" [numVisible]="3" [numScroll]="1" [circular]="true" [autoplayInterval]="3000" [showIndicators]="false" >
-                    <ng-template let-hola pTemplate="item">
-                
-                        <div class="card-2">
-                            <img src="{{hola.imagen}}" class="imagen" width="50%" height="200px" alt="">
-                            <div class="cuerpo">
-                                <p class="nombre">{{hola.nombre}}</p>
-                                <p class="precio">$$:{{hola.precio}}</p>
-                                <p class="marca">{{hola.marca}}</p>
-                
-                            </div>
-                        </div>
-                    </ng-template>
-                
-                    
-                    
-                </p-carousel>
-                
+        </div>
+        <div class="right">
+            <div class="right-wrapper">
+                <div class="right-content">
+                    <h3 class="titulo">Usados</h3>
+                    <button class="btn">Ver</button>
+                </div>
             </div>
         </div>
     </div>
-    </div>
+    
+</div>
+
 

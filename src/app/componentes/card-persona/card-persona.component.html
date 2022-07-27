@@ -1,0 +1,20 @@
+<div class="contenedor">
+  <p-carousel [value]="autos" styleClass="custom-carousel" [numVisible]="3" [numScroll]="1" [circular]="true" [autoplayInterval]="3000" [responsiveOptions]="responsiveOptions">
+    <ng-template let-auto pTemplate="item">
+        <div class="carta">
+          
+          <img src="{{auto.imagen}}" class="carta_imagen" alt="vehiculo">
+          
+          <div class="carta_descripcion">
+            <p class="texto">
+              {{auto.nombre}}
+            </p>
+            <p class="marca">
+
+            </p>
+            <button class="btn">Saber Más</button>
+          </div>
+        </div>
+    </ng-template>
+  </p-carousel>
+</div>

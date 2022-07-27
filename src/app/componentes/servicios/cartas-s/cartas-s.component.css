@@ -1,0 +1,63 @@
+:root{
+    --sombra: 3px 5px 5px rgba(3, 32, 51, .8);
+ }
+ 
+ .contenedor{
+     display: flex;
+     justify-content: space-around;
+     background: url(../../../../assets/fondo.png);
+     
+    
+ }
+ 
+ .carta{
+     margin: 20px;
+     width: 350px;
+     height: 200px;
+     border: solid 2px rgb(255, 0, 0);
+    
+     background: var(--i);
+     background-size: cover;
+     box-shadow: var(--sombra);
+     transition: .5s;
+ }
+ .contenido{
+     height: 100%;
+     width: 100%;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     background: rgba(0, 0, 0, .4);
+     opacity: 1;
+     transition: .5s;
+ }
+ .contenido a{
+    text-align: center;
+     color: white;
+     text-decoration: none;
+     font-size: 1.9em;
+ }
+ 
+ .carta:hover .contenido {
+     font-size: 1.2em;
+     background: rgba(255, 255, 255, 0.7);
+     text-decoration: underline;
+     
+ }
+ .carta:hover a{
+    color: black;
+ }
+ .contenido a p{
+    font-size: 0.5em;
+    
+ }
+
+ @media only screen and (max-width: 600px){
+     .contenedor{
+         display: flex;
+         justify-content: space-around;
+         flex-direction: column;
+         background: url(../../../../assets/fondo.png);
+     }
+ }

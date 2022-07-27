@@ -1,66 +1,93 @@
-.carta{
-    background: var(--i);
-    background-size: cover;
-    width: 1500px;
-    padding-bottom: -30px;
-    height: 300px;
-    box-shadow: 3px 5px 5px rgba(3, 32, 51, .8);
-    
+
+.body{
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
-
-.contenedor{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    background: rgba(0, 0, 0, .4);
-    opacity: 0;
-    transition: .5s;
-}
-
-
-.carta:hover .contenedor{
-    opacity: 1;
+.titulo{
+    font-size: 4em;
+    color: #fff;
+    text-shadow: 0 0 5px black;
 }
 .btn{
-    border: 3px solid rgb(0, 132, 255);
-    padding: 8px 50px;
-    margin: auto;
-    text-decoration: none;
-    border-radius: 50px;
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
     font-size: 1em;
-    font-weight: 600;
-    color: rgb(255, 255, 255);
-
-}
-.oferta{
-    margin-top: 50px;
-    color: blanchedalmond;
-}
-
-.card-2{
-    border-radius: 20px;
-    border: 1px solid rgb(128, 128, 128);
-    margin: 40px 2px;
-    justify-content: center;
-    align-items: center;
+    margin: 0 150px;
     text-align: center;
-    font-family: petite-caps;
+    padding: 10px 25px;
+}
+.contenedor{
+    display: flex;
+    
+}
+/*left*/
+.left{
+    background: white url("https://www.eventosmotor.com/wp-content/uploads/2021/06/Pontiac-GTO_Editorial_Use_Only.jpg") no-repeat scroll center;
+    background-size: cover;
+    width: 50%;
+    height: 100vh;
+}
+.left-wrapper{
+    background-color: rgba(85, 7, 7, 0.6);
+    height: 100%;
+}
+.left-content, .right-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    text-align: center;
+    height: 100%;
+}
+/* right */
+.right{
+    background: white url("https://www.eventosmotor.com/wp-content/uploads/2021/06/amc-eagle.jpg") no-repeat scroll center;
+    background-size: cover;
+    width: 50%;
+    height: 100vh;
+}
+.right-wrapper{
+    background-color: rgba(71, 63, 63, 0.6);
+    height: 100%;
+}
+.left, .left-content, .right,.right-content{
+    transition: all 0.5s ease-in-out;
+}
+.left:hover{
+    width: 90%;
+}
+.left:hover .left-content{
+    transform: scale(1.3, 1.3);
 }
 
-.nombre{
-    font-weight: 600;
-    font-size: 18px;
+
+.right:hover{
+    width: 90%;
 }
-.precio{
-    font-weight: 600;
-    font-size: 18px;
-    color: green;
+.right:hover .right-content{
+    transform: scale(1.3, 1.3);
 }
-.marca{
-    font-weight: 600;
-    font-size: 18px;
+
+@media only screen and (max-width: 600px){
+    .contenedor{
+    display: flex;
+    flex-direction: column;
+    }
+    .left, .right{
+        width: 100%;
+    }
+    .left:hover{
+        width: 100%;
+    }
+    .right:hover{
+        width: 100%;
+    }
+    .right:hover .right-content{
+        transform: none;
+    }
+    .left:hover .left-content{
+        transform:none;
+    }
+
 }

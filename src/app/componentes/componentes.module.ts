@@ -11,7 +11,29 @@ import { HeaderComponent } from './header/header.component';
 import { PagosComponent } from './pagos/pagos.component';
 import { VideoPresentComponent } from './video-present/video-present.component';
 import {CarouselModule} from 'primeng/carousel';
+import { BannerVComponent } from './vehiculos/banner-v/banner-v.component';
+import { CartasVComponent } from './vehiculos/cartas-v/cartas-v.component';
+import { RegistroVComponent } from './vehiculos/registro-v/registro-v.component';
+import { RouterModule } from '@angular/router';
+import { BannerSComponent } from './servicios/banner-s/banner-s.component';
+import { CartasSComponent } from './servicios/cartas-s/cartas-s.component';
+import { ContactoSComponent } from './servicios/contacto-s/contacto-s.component';
+import { SoporteSComponent } from './servicios/soporte-s/soporte-s.component';
+import { MenubarModule } from 'primeng/menubar';
+//modulos nuevos
+import {InputTextModule} from 'primeng/inputtext';
+import {ButtonModule} from 'primeng/button';
+import {CheckboxModule} from 'primeng/checkbox';
+import {RadioButtonModule} from 'primeng/radiobutton';
+import {RippleModule} from 'primeng/ripple';
+import {FormsModule} from '@angular/forms';
 
+import {CardModule} from 'primeng/card';
+import { BannerRComponent } from './repuestos/banner-r/banner-r.component';
+import { CarouselRComponent } from './repuestos/carousel-r/carousel-r.component';
+import { CardRComponent } from './repuestos/card-r/card-r.component';
+import { ContactoRComponent } from './repuestos/contacto-r/contacto-r.component';
+import { RegitroComponent } from './usuario/regitro/regitro.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +46,19 @@ import {CarouselModule} from 'primeng/carousel';
     FotherComponent,
     HeaderComponent,
     PagosComponent,
-    VideoPresentComponent
+    VideoPresentComponent,
+    BannerVComponent,
+    CartasVComponent,
+    RegistroVComponent,
+    BannerSComponent,
+    CartasSComponent,
+    ContactoSComponent,
+    SoporteSComponent,
+    BannerRComponent,
+    CarouselRComponent,
+    CardRComponent,
+    ContactoRComponent,
+    RegitroComponent
   ],
   exports:[
     AsociadosComponent,
@@ -36,11 +70,35 @@ import {CarouselModule} from 'primeng/carousel';
     FotherComponent,
     HeaderComponent,
     PagosComponent,
-    VideoPresentComponent
+    VideoPresentComponent,
+    BannerVComponent,
+    CartasVComponent,
+    RegistroVComponent,
+    BannerSComponent,
+    CartasSComponent,
+    ContactoSComponent,
+    SoporteSComponent,
+    BannerRComponent,
+    CarouselRComponent,
+    CardRComponent,
+    ContactoRComponent,
+    RegitroComponent
   ],
   imports: [
     CommonModule,
-    CarouselModule
+    CarouselModule,
+    RouterModule,
+    MenubarModule,
+    //nuevos modulos
+    InputTextModule,
+		CheckboxModule,
+		ButtonModule,
+		RadioButtonModule,
+    RippleModule,
+    FormsModule,
+
+
+    CardModule
   ]
 })
 export class ComponentesModule { }

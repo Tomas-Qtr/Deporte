@@ -1,0 +1,59 @@
+.soporte{
+    background: url(https://www.exitosites.com/wp-content/uploads/2021/02/CONOCE-LA-IMPORTANCIA-DE-OFRECER-SOPORTE-T%C3%89CNICO-PARA-TUS-CL-1170x525.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 525px;
+    display: flex;
+
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+}
+
+h1{
+    font-size: 3em ;
+    font-weight: bold;
+    color: rgba(17, 11, 11, 0.836);
+
+    
+}
+h2{
+    font-size: 2em;
+    font-weight: 900px;
+    color: rgba(17, 11, 11, 0.836)  ;
+}
+
+:host ::ng-deep .carta.p-card .p-card-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+:host ::ng-deep .carta.p-card{
+    background: rgba(128, 128, 128, 0.507);
+}
+
+.p-inputgroup{
+    margin: 10px 0;
+}
+
+.btn{
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+.btn button{
+    color: #fff;
+    background: black;
+    padding: 10px 20px;
+    font-size: 1em;
+    font-weight: 500;
+   
+}
+
+.btn button:hover{
+    color: black;
+    background: #fff;
+    font-weight: 500;
+}

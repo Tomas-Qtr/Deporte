@@ -1,10 +1,14 @@
 
 
-        <p-carousel [value]="marcas" styleClass="custom-carousel" [numVisible]="4" [numScroll]="1" [circular]="true" [autoplayInterval]="3000">
-           
-            <ng-template let-marca pTemplate="item">
-              <img src="{{marca.imagen}}" width="50%"  height="50%" alt="marcas"> 
-            </ng-template>
-        </p-carousel>
-
         
+<div class="contenedor">
+  <p-carousel class="asociado_carousel" [value]="marcas" styleClass="p-carousel-dot-item" [numVisible]="4" [numScroll]="1" [circular]="true" [autoplayInterval]="3000" [responsiveOptions]="responsiveOptions" [showIndicators]="false">
+           
+    <ng-template class="asociado-template" let-marca pTemplate="item">
+      <img src="{{marca.imagen}}" width="30%"  height="80px" class="asociado_imagen" alt="marcas"> 
+    </ng-template>
+  </p-carousel>    
+
+</div>
+
+

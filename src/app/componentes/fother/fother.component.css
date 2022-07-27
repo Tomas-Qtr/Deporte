@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Francois+One&family=Kanit:wght@200&display=swap');
+
+
+.fother{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    background-color: black;
+    justify-items: center;
+    margin: 0;
+    font-family: 'Francois One', sans-serif;
+    font-family: 'Kanit', sans-serif;
+}
+
+a{
+    color: rgb(175, 175, 175);
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+p{
+    font-size: 1.2em;
+}
+ul{
+    list-style: none;
+}
+li{
+    margin: 0 5px;
+    padding: 2px 0;
+}
+.redes{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    justify-content: center;
+}
+.logo{
+    align-self: center;
+}
+.icono{
+    font-size: 3em;
+    padding: 15px 15px;
+    margin: 0 10px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border-radius: 25px ;
+}
+.icono:hover{
+    background:none;
+    color: #fff;
+}
+div{
+    margin: 15px 0;
+}
+section{
+    margin: 20px 0;
+}
+@media only screen and (max-width: 600px){
+    .fother{
+        flex-direction: column-reverse;
+    }
+    section{
+        text-align: center;
+    }
+
+    .nosotros{
+        margin-top: 0;
+    }
+    .ayuda{
+        margin-bottom: 0;
+    }
+}

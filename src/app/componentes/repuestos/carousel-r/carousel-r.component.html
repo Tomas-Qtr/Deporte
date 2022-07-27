@@ -1,0 +1,19 @@
+<div class="contenedor">
+    <p-carousel [value]="repuesto" styleClass="custom-carousel" [numVisible]="3" [numScroll]="1" [circular]="true" [autoplayInterval]="3000" [responsiveOptions]="responsiveOptions">
+      <ng-template let-repuesto pTemplate="item">
+        <div class="contenedor">
+            <div class="carta">
+                <img src="{{repuesto.imagem}}" class="repuesto" alt="">
+                <div class="centrado">
+                    <h4>{{repuesto.nombre}}</h4>
+                </div>
+                
+            </div>
+            
+            
+            
+        </div>
+        
+      </ng-template>
+    </p-carousel>
+</div>

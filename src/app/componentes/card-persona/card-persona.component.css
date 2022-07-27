@@ -1,0 +1,46 @@
+.contenedor{
+  background-image: url(src/assets/fondo.png);
+  text-align: center;
+  justify-content: space-evenly;
+  padding-top: 40px;
+}
+.texto{
+  font-size: 1.5em;
+  color: #fff;
+  font-weight: 500;
+}
+.btn{
+  width: 430px;
+  background: red;
+  color: #fff;
+  border: none;
+  font-size: large;
+  font-weight: 500;
+  transition: all ease-out 0.5s;
+}
+.btn:hover{
+  background: rgba(255, 255, 255, 0.151);
+  color: black;
+
+}
+.carta{
+  border: 1px solid red;
+  border-radius: 2px;
+  margin: 0 5px;
+  width: auto;
+}
+.carta_imagen{
+  width: 350px;
+  height: 200px;
+}
+
+:host ::ng-deep .custom-carousel.p-carousel .p-carousel-indicators .p-carousel-indicator.p-highlight button {
+  background-color: #fc0000;
+}
+
+:host ::ng-deep .custom-carousel.p-carousel .p-carousel-content .p-carousel-prev:enabled:hover,
+.p-carousel .p-carousel-content .p-carousel-next:enabled:hover {
+  color: #ffffff;
+  border-color: transparent;
+  background: #000000;
+}

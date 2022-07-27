@@ -1,0 +1,27 @@
+.banner{
+    background: url(../../../../assets/banners/banner-v.png);
+    background-repeat: no-repeat;
+   background-size: cover;
+    width: 100%;
+   
+    height: 700px;
+    min-height: 600px;
+   
+    display: flex;
+    align-items: center;
+    text-align: start;
+    background-color: black;
+}
+h1{
+    font-size:4em;
+    font-weight: 600;
+    
+}
+.banner_descripcion{
+    color: rgb(255, 255, 255);
+    text-shadow: -6px 0px 5px rgba(0,0,0,0.66);
+    width: 90%;
+    max-width: 1000px;
+    display: block;
+    margin-left: 60px;
+}

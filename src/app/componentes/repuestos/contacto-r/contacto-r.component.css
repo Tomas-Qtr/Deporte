@@ -1,0 +1,45 @@
+.contenedor{
+    background: url(https://s1.1zoom.me/big0/461/BMW_Concept_Coupe_473225.jpg );
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+
+.encargar{
+    background-color: rgba(128, 128, 128, 0.5);
+    border-radius: 30px;
+    width: 50em;
+    height: 30em;
+    text-align: center;
+}
+.datos{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.llenar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+   
+    margin: 15px 0;
+}
+
+.p-float-label{
+    margin: 20px 0;
+}
+.btn{
+    color: #fff;
+    background: black;
+    padding: 10px 20px;
+    font-size: 1em;
+    font-weight: 500;
+}
+.btn:hover{
+    color: black;
+    background: #fff;
+}
