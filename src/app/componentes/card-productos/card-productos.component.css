@@ -24,7 +24,7 @@
 }
 /*left*/
 .left{
-    background: white url("https://www.eventosmotor.com/wp-content/uploads/2021/06/Pontiac-GTO_Editorial_Use_Only.jpg") no-repeat scroll center;
+    background: white url("../../../assets/autos-cards/importado.jpg") no-repeat scroll center;
     background-size: cover;
     width: 50%;
     height: 100vh;
@@ -43,7 +43,7 @@
 }
 /* right */
 .right{
-    background: white url("https://www.eventosmotor.com/wp-content/uploads/2021/06/amc-eagle.jpg") no-repeat scroll center;
+    background: white url("../../../assets/autos-cards/usados.jpg") no-repeat scroll center;
     background-size: cover;
     width: 50%;
     height: 100vh;

@@ -51,7 +51,7 @@ p{
 }
 /* right */
 .right{
-    background: white url("https://apicolacedea.cl/wp-content/uploads/2020/02/contactanos.png") no-repeat scroll center;
+    background: white url("../../../../assets/page-nosotros/contactanos.jpg") no-repeat scroll center;
     background-size: cover;
     width: 50%;
     height: 85vh;

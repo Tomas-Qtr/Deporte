@@ -9,23 +9,23 @@ export class CarouselRComponent implements OnInit {
 
   repuesto:object[]=[
     {
-      imagem:'https://1.bp.blogspot.com/-GBrSOYsr9Tg/Vyju4NMj4YI/AAAAAAAAKjs/uO47E42BVsYtQ1uboDpj-79ry6k5Jbj5ACLcB/s1600/v8-alfa-romeo.jpg',
+      imagem:'../../../../assets/page-repuesto/motor.jpg',
       nombre:'Motor'
     },
     {
-      imagem:'https://images.milenio.com/WJaZRBjvLasmcGOXuDAPFfqpsIY=/300x186/uploads/media/2021/04/19/vehiculos-fallar-transmision-constantes-cambios_58_0_1085_676.jpg',
+      imagem:'../../../../assets/page-repuesto/volante.jpg',
       nombre:'Transmicion'
     },
     {
-      imagem:'https://www.autofacil.es/wp-content/uploads/2021/05/frenoscocheapertura-1.jpg',
+      imagem:'../../../../assets/page-repuesto/frenos.jpg',
       nombre:'Frenos'
     },
     {
-      imagem:'http://autobild.com.mx/wp-content/uploads/2019/08/luces-blancas-carro.jpg',
+      imagem:'../../../../assets/page-repuesto/luces.jpg',
       nombre:'Luces'
     },
     {
-      imagem:'https://imagenes.elpais.com/resizer/GP9j99leaLEVfR9AtYS1aKZwD0U=/414x0/cloudfront-eu-central-1.images.arcpublishing.com/prisa/OWZJT7UC24IYM5VABKUJPI3KD4.jpg',
+      imagem:'../../../../assets/page-repuesto/accesorios.jpg',
       nombre:'Acesorios'
     }
     

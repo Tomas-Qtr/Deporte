@@ -46,7 +46,7 @@ p{
 }
 /* right */
 .right{
-    background: white url("https://arqa.com/empresas/wp-content/uploads/sites/2/2022/05/nueva-imagen-renault-4-860x688.jpg") no-repeat scroll center;
+    background: white url("../../../../assets/page-nosotros/consecionario.jpg") no-repeat scroll center;
     background-size: cover;
     width: 50%;
     height: 85vh;

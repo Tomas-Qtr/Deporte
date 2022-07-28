@@ -9,37 +9,37 @@ export class CardPersonaComponent implements OnInit {
 
     autos:object[]=[
       {
-        imagen:'https://es.alfaromeousa.com/content/dam/alfausa/megaMenu/all-vehicles/2022-AlfaRomeo-LineUp-Giulia.png.image.500.png',
+        imagen:'../../../assets/carrousel-autos/auto1.png',
         nombre:'',
         marca:'',
         tipo:''
       },
       {
-        imagen:'https://www.alfaromeo.es/content/dam/alfa/cross/homepage/trim/Trim-Giulia_ESTREMA.png',
+        imagen:'../../../assets/carrousel-autos/auto2.png',
         nombre:'',
         marca:'',
         tipo:''
       },
       {
-        imagen:'https://www.alfaromeo.es/content/dam/alfa/cross/homepage/trim/Trim-Stelvio_TI.png',
+        imagen:'../../../assets/carrousel-autos/auto3.png',
         nombre:'',
         marca:'',
         tipo:''
       },
       {
-        imagen:'https://www.chevrolet.com.ar/content/dam/chevrolet/mercosur/argentina/espanol/index/cars/cars-subcontent/06-images/cruze-rs.png?imwidth=960',
+        imagen:'../../../assets/carrousel-autos/auto4.png',
         nombre:'',
         marca:'',
         tipo:''
       },
       {
-        imagen:'https://ss-static-01.esmsv.com/id/145742/productos/obtenerimagen/?id=71&useDensity=false&width=1280&height=720&tipoEscala=contain',
+        imagen:'../../../assets/carrousel-autos/auto5.png',
         nombre:'',
         marca:'',
         tipo:''
       },
       {
-        imagen:'https://es.alfaromeousa.com/content/dam/alfausa/megaMenu/all-vehicles/2022-AlfaRomeo-LineUp-Giulia.png.image.500.png',
+        imagen:'../../../assets/carrousel-autos/auto1.png',
         nombre:'',
         marca:'',
         tipo:''
