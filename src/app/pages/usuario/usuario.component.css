@@ -36,7 +36,7 @@
 .message button {
     padding: 1rem;
     font-weight: 400;
-    background-color: #4a4aee;
+    background-color: #f80101;
     border-radius: 2rem;
     border: none;
     outline: none;
@@ -48,7 +48,7 @@
 }
 
 .message button:hover {
-    background-color: #6464f8;
+    background-color: #b91515;
 }
 
 .formulario {
@@ -63,7 +63,10 @@
     padding: 2.7rem 0;
     font-size: 1.7rem;
 }
-
+.iconos-flexibles{
+    display: flex;
+    justify-content: center;
+}
 .iconos {
     width: 200px;
     display: flex;
@@ -81,11 +84,12 @@
     border: solid thin white;
     border-radius: 50%;
     font-size: 1.5rem;
+    margin: 0 5px;
     transition: all .3s ease-in;
 }
 
 .border-icon:hover {
-    background-color: #4a4aee;
+    background-color: #ff0000;
     cursor: pointer;
 }
 
@@ -137,3 +141,5 @@
     opacity: 0;
     visibility: hidden;
 }
+
+

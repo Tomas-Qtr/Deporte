@@ -3,7 +3,7 @@
     
     height: 650px;
     display: flex;
-    background: yellow;
+    background: rgb(22, 22, 22);
     justify-content: space-evenly;
     align-items: center;
     text-align: end;
@@ -14,16 +14,23 @@
    background-size: cover;
 }
 .btn{
-    border: 4px solid rgb(255, 0, 0);
-    width: 300px;
-    padding: 30px 35px;
-    background: none;
+    background-color: red;
     color: #fff;
-    font-size: x-large;
-    font-weight: 700;
+    border: red;
+    border-radius: 30px;
+    width: 200px;
+    padding: 10px;
+    font-size: 1.5em;
+    margin-left: 25px;
+    
+}
+a{
+    text-decoration: none;
+    color: #fff;
 }
 .btn:hover{
-    background-color: rgba(49, 45, 45, 0.445);
+    background-color: rgba(49, 45, 45, 0.623);
+    border: red;
 }
 .imagen_descripcion{
     

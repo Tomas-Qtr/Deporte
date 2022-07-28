@@ -34,6 +34,11 @@ import { CarouselRComponent } from './repuestos/carousel-r/carousel-r.component'
 import { CardRComponent } from './repuestos/card-r/card-r.component';
 import { ContactoRComponent } from './repuestos/contacto-r/contacto-r.component';
 import { RegitroComponent } from './usuario/regitro/regitro.component';
+import { BannerNComponent } from './nosotros/banner-n/banner-n.component';
+import { HistoriaNComponent } from './nosotros/historia-n/historia-n.component';
+import { ContactoNComponent } from './nosotros/contacto-n/contacto-n.component';
+import { ImportacionesComponent } from './nosotros/importaciones/importaciones.component';
+import { SomosNComponent } from './nosotros/somos-n/somos-n.component';
 
 @NgModule({
   declarations: [
@@ -58,7 +63,12 @@ import { RegitroComponent } from './usuario/regitro/regitro.component';
     CarouselRComponent,
     CardRComponent,
     ContactoRComponent,
-    RegitroComponent
+    RegitroComponent,
+    BannerNComponent,
+    HistoriaNComponent,
+    ContactoNComponent,
+    ImportacionesComponent,
+    SomosNComponent
   ],
   exports:[
     AsociadosComponent,
@@ -82,7 +92,12 @@ import { RegitroComponent } from './usuario/regitro/regitro.component';
     CarouselRComponent,
     CardRComponent,
     ContactoRComponent,
-    RegitroComponent
+    RegitroComponent,
+    BannerNComponent,
+    HistoriaNComponent,
+    ContactoNComponent,
+    ImportacionesComponent,
+    SomosNComponent
   ],
   imports: [
     CommonModule,

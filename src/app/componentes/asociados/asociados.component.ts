@@ -25,12 +25,7 @@ export class AsociadosComponent implements OnInit {
   {
     imagen:"https://www.pngmart.com/files/10/Audi-Logo-PNG-Photos.png"
   },
-  {
-    imagen:"https://www.pngmart.com/files/15/Ferrari-Logo-PNG-Free-Download.png"
-  },
-  {
-    imagen:"https://upload.wikimedia.org/wikipedia/commons/e/e8/Tesla_logo.png"
-  },
+
   {
     imagen:"https://www.pngplay.com/wp-content/uploads/13/BMW-Logo-Transparent-PNG.png"
   },

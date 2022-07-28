@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 import * as AOS from 'aos';
 @Component({
-  selector: 'app-banner',
-  templateUrl: './banner.component.html',
-  styleUrls: ['./banner.component.css']
+  selector: 'app-somos-n',
+  templateUrl: './somos-n.component.html',
+  styleUrls: ['./somos-n.component.css']
 })
-export class BannerComponent implements OnInit {
+export class SomosNComponent implements OnInit {
 
   constructor() { }
 

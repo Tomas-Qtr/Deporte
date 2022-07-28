@@ -43,11 +43,12 @@ p{
 }
 
 .iconos{
-    color: black;
+    color: rgb(255, 255, 255);
     font-size: 2em;
     text-shadow: none;
     margin: 0 5px;
 }
 h2{
     font-size: 3em;
+    color: #fff;
 }

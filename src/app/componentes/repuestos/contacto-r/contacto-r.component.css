@@ -28,7 +28,9 @@
    
     margin: 15px 0;
 }
-
+.info{
+    color: #fff;
+}
 .p-float-label{
     margin: 20px 0;
 }
