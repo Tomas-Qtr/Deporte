@@ -15,11 +15,15 @@ import {RippleModule} from 'primeng/ripple';
 import {FormsModule} from '@angular/forms';
 
 import {CardModule} from 'primeng/card';
+import { FormularioComponent } from './Prueba/formulario/formulario.component';
+import { Formulario2Component } from './Prueba/formulario2/formulario2.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
+    FormularioComponent,
+    Formulario2Component,
     
   ],
   imports: [
