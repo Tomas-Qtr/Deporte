@@ -17,13 +17,15 @@ import {FormsModule} from '@angular/forms';
 import {CardModule} from 'primeng/card';
 import { FormularioComponent } from './Prueba/formulario/formulario.component';
 import { Formulario2Component } from './Prueba/formulario2/formulario2.component';
+import {TableModule} from 'primeng/table';
+import { UsuariosService } from './servicio/usuarios.service';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     FormularioComponent,
-    Formulario2Component,
+    Formulario2Component
     
   ],
   imports: [
@@ -42,10 +44,10 @@ import { Formulario2Component } from './Prueba/formulario2/formulario2.component
 		RadioButtonModule,
     RippleModule,
     FormsModule,
-
+    TableModule,
     CardModule
   ],
-  providers: [],
+  providers: [UsuariosService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -1,29 +1,17 @@
-<header>
-    <nav class="navegador">
-        <a routerLink="" class="logo">
-            <img src="../../../assets/logo/StarCar.png" width="95px" height="70px" alt="logo">
-        </a>
-        
-        <ul class="nav-menu">
-            <li class="nav-item">
-                <a routerLink="vehiculos" class="ruta decoracion">Vehiculos</a>
-            </li>
-            <li class="nav-item">
-                <a routerLink="servicios" class="ruta decoracion">Servicios</a>
-            </li>
-            <li class="nav-item">
-                <a routerLink="repuestos" class="ruta decoracion">
-                   Repuestos
-                </a>
-            </li>
-            <li class="nav-item">
-                <a class="ruta decoracion" routerLink="nosotros">Nosotros</a>
-            </li>
-            <li class="nav-itemo">
-                <a class="ruta decoracion2" routerLink="usuario"><i class="pi pi-user"></i> Iniciar Sesión</a>
-            </li>
-        </ul>
-       
-    </nav>
-    
-</header> 
+<p-table [value]="usuarios" responsiveLayout="scroll">
+    <ng-template pTemplate="header">
+        <tr>
+            <th>Code</th>
+            <th>Name</th>
+           
+        </tr>
+    </ng-template>
+    <ng-template pTemplate="body" let-product>
+        <tr>
+            <td>{{product.nombreUsuario}}</td>
+            <td>{{product.contrasenaUsuario}}</td>
+            <td><button pButton type="button" label="Delete" icon="pi pi-trash"></button></td>
+            <td><button pButton type="button" label="Save" icon="pi pi-check"></button></td>
+        </tr>
+    </ng-template>
+</p-table>

@@ -8,14 +8,16 @@ import { ServiciosComponent } from './pages/servicios/servicios.component';
 import { UsuarioComponent } from './pages/usuario/usuario.component';
 
 import { VehiculosComponent } from './pages/vehiculos/vehiculos.component';
+import { Formulario2Component } from './Prueba/formulario2/formulario2.component';
 
 const routes: Routes = [
-  {path:'', component: HomeComponent},
+  /* {path:'', component: HomeComponent},
   {path:'vehiculos' , component: VehiculosComponent},
   {path:'nosotros' , component: NosotrosComponent},
   {path:'servicios' , component: ServiciosComponent},
   {path:'repuestos' , component: RepuestosComponent},
-  {path:'usuario' , component: UsuarioComponent}
+  {path:'usuario' , component: UsuarioComponent}, */
+  {path:'editar' , component: Formulario2Component}
 ]
 
 @NgModule({
